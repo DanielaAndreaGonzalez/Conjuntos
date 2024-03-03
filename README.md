@@ -35,12 +35,18 @@ Además de las funciones operacionales  mencionadas, se implementó para el resu
 
 **************************************************************************************************************************************************************************************
 
-**Prácticas usadas en el programa **
+**Prácticas usadas en el programa**
 
 Se hizo uso de funciones propias, así mismo el uso de ciclos para controlar las funciones, uso de diccionarios o listas para almacenar los elementos que representan los conjuntos.
 Se comentó cada función indicando lo que cada una hace y para qué se utiliza, se hizo uso de las funciones que devuelven un valor para garantizar la modularidad.
 
 *****************************************************************************************************************************************************************************************
 
+**DESCARGAR EL PROGRAMA**
 
+Para descargar el programa es necesario:
+
+*DESCARGAR VISUAL STUDIO CODE* (Versión actualizada)
+*DESCARGAR LA EXTENSIÓN DE PYTHON*
+*GUARDAR UN ARCHIVO PLANO CON EXTENSIÓN 'py'*
 
