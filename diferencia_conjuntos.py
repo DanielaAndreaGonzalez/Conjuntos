@@ -26,7 +26,7 @@ def calcularCardinalidad():
     print("Cardinalidad de la unión:", cardinalidad)
 
 def esSubconjunto():
-    # Calcular  si lista1 es un subconjunto de la unión de los conjuntos
+    # Calcular  si lista1 es un subconjunto de la diferencia de los conjuntos
     es_subconjunto = True
     for elemento in lista1:
         if elemento not in resultado_diferencia_conjuntos:

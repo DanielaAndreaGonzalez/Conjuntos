@@ -7,7 +7,7 @@ universal = [20,40,60,80]
 interseccion = set()
 union = set()
 diferencia = set()
-complemento = []
+complemento_oper = []
 
 #Función que realiza la interseccion (lista1 interseccion lista2)
 def interseccionConjunto():
@@ -43,7 +43,7 @@ def union_diferencia_A():
 def complemento():
     for elemento in universal:
         if elemento not in lista1:
-            complemento.append(elemento)
+            complemento_oper.append(elemento)
 
 def menu():
     opcion = 0
@@ -62,7 +62,7 @@ def menu():
 
         elif opcion == 2:
             # Lógica para realizar (A) complemento
-            print("Complemento de A", complemento)
+            print("Complemento de A", complemento())
 
         elif opcion == 3:
             # Lógica para ver intersección, unión y diferencia entre 2 conjuntos

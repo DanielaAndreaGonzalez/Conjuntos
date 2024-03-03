@@ -8,7 +8,7 @@ lista3 = ["a","o","i","c","u"]
 conjuntoTotal = set()
 
 
-#Función que hace la unión de tres conjuntos sin repetir elementos
+#Función que hace la interseccion de tres conjuntos 
 def interseccionConjunto():
     global conjuntoTotal  # Declarar conjuntoTotal como global
     
@@ -43,7 +43,7 @@ def interseccionConjunto():
     print("TOTAL: Intersección entre conjunto 1,2 y 3",conjuntoTotal)
 
 
-# Función para calcular la cardinalidad manualmente
+# Función para calcular la cardinalidad 
 def calcularCardinalidad():
     cardinalidad = 0
     for i in conjuntoTotal:
@@ -51,7 +51,7 @@ def calcularCardinalidad():
     print("Cardinalidad de la intersección:", cardinalidad)
 
 def esSubconjunto():
-    # Calcular manualmente si lista1 es un subconjunto de la unión de los conjuntos
+    # Calcular  si lista1 es un subconjunto de la interseccion de los conjuntos
     es_subconjunto = True
     for elemento in lista1:
         if elemento not in conjuntoTotal:
@@ -64,7 +64,7 @@ def esSubconjunto():
         print("lista1 NO es un subconjunto de la unión de los conjuntos.")
 
 
-# Calcular manualmente si los conjuntos son disjuntos
+# Calcular  si los conjuntos son disjuntos
 def esDisjunto():
     son_disjuntos = True
     for elemento in lista1:
