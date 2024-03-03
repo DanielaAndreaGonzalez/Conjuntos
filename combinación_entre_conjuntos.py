@@ -1,9 +1,12 @@
+#Operaciones entre conjuntos
+
+#Declaracion y llenado de conjuntos
 lista1 = [1,3,5,7,9]
 lista2 = [2,3,5,7,10]
 lista3 = [8,9,10]
 universal = [20,40,60,80]
 
-
+#Declaracion de conjuntos resultados
 interseccion = set()
 union = set()
 diferencia = set()
@@ -25,14 +28,12 @@ def unionConjunto():
         union.add(elemento)
     print(union)
     
-
 #Función que realiza la diferencia entre la lista 3 y la lista 2 (lista3 - lista2)
 def diferencia_conjuntos():
     for elemento in lista3:
         if elemento not in lista2:
             diferencia.add(elemento)
     print(diferencia)
-
 
 # Función para realizar (A U B) - (A)
 def union_diferencia_A():
